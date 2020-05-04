@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.mobile-image, .mobile-logo {
+    display: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+    font-family: 'Josefin Sans',sans-serif;
+}
+img {
+    height: 100vh;
+}
+.logo {
+    height: 25px;
+    width: 120px;
+}
+.arrow {
+    position: absolute;
+    height: 30px;
+    width: 20px;
+    top: 4px;
+    right: 12px;
+}
+.error {
+    position: absolute;
+    height: 23px;
+    width: 23px;
+    top: 8px;
+    right: 50px;
+}
+
+.wrapper {
+    width: 500px;
+    margin-left: 110px;
+    margin-top: 35px;
+    padding-right: 150px;
+}
+
+    
+.part1 {
+    font-family: 'Tangerine', serif;
+} 
+.content {
+    margin-top: 85px;
+}
+h1 {
+    font-size: 40px;
+}
+.were {
+    font-weight: 100;
+    font-size: 50px;
+}
+.hello-para {
+    font-size: 13px;
+    font-weight: 30;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:hsl(0, 36%, 70%);
+    
+}
+.were {
+    color: hsl(0, 36%, 70%);;
+}
+.black {
+    font-size: 50px;
+    color: hsl(0, 6%, 24%);
+    font-weight: 200;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 15px;
+    padding-left: 30px;
+    border: solid hsl(0, 36%, 70%) 0.5px;
+    border-radius: 5pc;
+    font-size: 12px;
+    color: hsl(0, 36%, 70%) ;
+}
+.input {
+    position: relative;
+    
+}
+sub { 
+    
+    margin-left: 17px;
+    margin-top: 3px;
+    font-size: 12px;
+    padding-top: 5px;
+    color: hsl(0, 93%, 68%);
+}
+
+@media(max-width:1040px){
+   
+    .mobile-logo{
+        display: block;
+        height: 22px;
+        width: 100px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        margin-left: 35px;
+    }
+    .mobile-image {
+        display: block;
+        height: 500px;
+        width: 90vw;
+        margin: auto;
+    }
+    .part2 {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .content {
+        text-align: center;
+    
+    }
+    .part1 {
+        margin: 0;
+        
+    }
+  .wrapper {
+      margin: auto;
+      padding: 0;
+      width: 60%;
+      padding-bottom: 100px;
+      
+  }
+}
+@media(max-width: 375px){
+   
+    .mobile-logo{
+        display: block;
+        height: 22px;
+        width: 100px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        margin-left: 35px;
+    }
+    .mobile-image {
+        display: block;
+        height: 250px;
+        width: 100vw;
+    }
+    .part2 {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+    .content {
+        text-align: center;
+    }
+    .part1 {
+        margin: 0;
+        
+    }
+  .wrapper {
+      margin: auto;
+      padding: 0;
+      width: 85%;
+      padding-bottom: 100px;
+      
+  }
+}
