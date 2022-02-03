@@ -7,15 +7,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>home page</title> 
         <link rel="icon" href="./images/favicon-32x32.png">
+        <!-- using external styling sheet .css file -->
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" >
         <link rel="stylesheet" href="app.css">
+        <!-- using internal styling with script tag -->
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}      </style>
     </head>
 <body>
     <img class="mobile-logo" src="./images/logo.svg" alt="logo">
     <img class="mobile-image" src="./images/hero-mobile.jpg">
     <div class="part1">
         <div class="wrapper">
-            <img class="logo" src="./images/logo.svg" alt="logo">
+
+        <!-- using inline styling with style attribute -->
+            <img class="logo" style="height: 25px; width: 125px;" src="./images/logo.svg" alt="logo">
             <div class="content">
        <h1 class="were">W E 'E R</h1>
        <h1 class="black">C O M I N G</h1>
